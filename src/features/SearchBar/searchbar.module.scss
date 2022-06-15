@@ -1,0 +1,36 @@
+@import '../../styles/styles.scss';
+
+.container {
+  margin: 20px 0;
+  min-width: 320px;
+  max-width: 600px;
+}
+
+.form {
+  display: flex;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid $color-gray;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+  padding-left: 20px;
+  font-size: 1.2rem;
+
+  &:focus {
+    border: 1px solid $color-black;
+  }
+}
+
+.error {
+  color: $color-error;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.button {
+  border-radius: 0 10px 10px 0;
+  border: 1px solid $color-black;
+}
