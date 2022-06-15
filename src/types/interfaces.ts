@@ -6,3 +6,10 @@ export interface PostItem {
   tags: string[];
   reactions: number;
 }
+
+export interface PostsJSON {
+  limit: number;
+  posts: PostItem[] | [];
+  skip: string;
+  total: number;
+}
