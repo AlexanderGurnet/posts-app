@@ -15,17 +15,12 @@
   height: fit-content;
   padding: 0.4rem;
   background-color: $color-primary;
-  border: 1px solid $color-black;
   opacity: 1;
 
   &:hover {
     background-color: $color-white;
     color: $color-black;
   }
-}
-
-.pagelink:first-of-type {
-  border-left: 1px solid $color-black;
 }
 
 .selected {
@@ -36,6 +31,10 @@
 .buttonPrev {
   border: 1px solid $color-black;
   border-radius: 10px 0 0 10px;
+
+  @media screen and (max-width: 560px) {
+    margin-left: 50px;
+  }
 }
 
 .buttonNext {
