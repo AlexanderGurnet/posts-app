@@ -3,6 +3,7 @@
 .button {
   display: inline-block;
   border: none;
+  margin: 0; /* Removes margins in Safari */
   color: $color-black;
   text-decoration: none;
   background-color: $color-primary;
